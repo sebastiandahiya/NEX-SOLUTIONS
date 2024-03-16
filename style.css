@@ -1,0 +1,198 @@
+
+
+
+*{
+    --text: hsl(0, 0%, 100%);
+--background: hsl(0, 0%, 0%);
+--primary: hsl(96, 100%, 50%);
+--secondary: hsl(0, 0%, 76%);
+--accent: hsl(317, 100%, 73%);
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  color: aliceblue;
+
+}
+.nav{
+    display:flex;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.links{
+   margin:45px 40px 40px 800px ;
+   font-size: larger;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    
+}
+body{
+    background-color: black;
+}
+
+.logo>img{
+    width: 100px ;
+    height: 100px;
+   margin-left: 50px;
+}
+.links>a{
+    margin-left: 60px;
+}
+.heading{
+    font-family: "Syne", sans-serif;
+    font-size: 90px;
+    margin: 0px 50px 0px 50px;
+    font-weight: 800;
+
+}
+#service{
+    color:  hsl(96, 100%, 50%);
+}
+.links>a:hover{
+    color: hsl(317, 100%, 73%);
+   opacity: 100;
+}
+
+
+
+.links>a::before{
+    
+    padding-right: 20px;
+opacity: 0.5;
+
+
+
+
+}
+#sec-one{
+    margin: 80px;
+}
+.box-three>img{
+ width: 700px;
+ margin-left: 0px;
+ border-radius: 10px;
+}
+  
+
+.box-one{
+    font-family: "Syne", sans-serif; 
+padding: 80px 50px 80px 50px ; width: fit-content;
+margin: 40px 20px 20px 70px ;
+  background-image: linear-gradient(to right, hsl(29, 100%, 50%), hsl(335, 100%, 50%));
+  border-radius: 10px;
+
+  box-shadow: rgba(255, 255, 255, 0.5) ;
+
+  font-size: x-large;
+  font-weight: 800;    
+}
+.box-two{
+    font-family: "Syne", sans-serif;
+    font-weight: 800;
+    background-image: linear-gradient(to right, hsl(335, 100%, 50%), hsl(175, 100%, 50%));
+  margin-top: 40PX;
+  padding: 80PX 40PX 80PX 40PX ;
+  border-radius: 10px; 
+  height: fit-content;
+  font-size: x-large;
+  margin-right: 40PX;
+}
+.parent-one{
+    display: flex;
+}
+.box-four{
+    font-family: "Syne", sans-serif;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom, hsl(29, 100%, 50%), hsl(335, 100%, 50%));
+  margin-top: 0PX;
+  padding: 80PX 40PX 80PX 40PX ;
+  border-radius: 10px; 
+  height: fit-content;
+  font-size: x-large;
+  margin-right: 20PX;
+  width: fit-content;
+  margin-left: 90px;
+}
+.parent-two{
+    display: flex;
+  
+}
+.box-five{
+    font-family: "Syne", sans-serif;
+    font-weight: 800;
+    background-image: linear-gradient(to right, hsl(29, 100%, 50%), hsl(192, 100%, 50%));
+  margin-top: 0PX;
+  padding: 80PX 40PX 80PX 40PX ;
+  border-radius: 10px; 
+  height: fit-content;
+  font-size: x-large;
+  margin-right: 20PX;
+  width: fit-content;
+  margin-left: 0px;
+}
+.box-six{
+    font-family: "Syne", sans-serif;
+    font-weight: 800;
+    background-image: linear-gradient(to right, hsl(180, 100%, 50%), hsl(335, 100%, 50%));
+  margin-top: 0PX;
+  padding: 80PX 40PX 80PX 40PX ;
+  border-radius: 10px; 
+  height: fit-content;
+  font-size: x-large;
+  margin-right: 20PX;
+  width: fit-content;
+  margin-left: 0px;
+}
+.cont
+{
+    background: rgba(255, 255, 255, 0.15); /* Adjust opacity as needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    width: 300px;
+    margin: 20px auto;
+    backdrop-filter: blur(100px); /* Apply blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Optional: border for better contrast */
+    font-family: "Syne", sans-serif;
+        background-image: url(https://i.pinimg.com/564x/a2/ac/7f/a2ac7f539a5958cd232d3ea942a86914.jpg);
+        background-position: center;
+        font-weight: 800;
+        margin:40px 0 0 500px ;
+    }
+    .price>h3{
+        font-family: "Syne", sans-serif;
+        font-weight: 800;
+        background-image: linear-gradient(to bottom, hsl(0, 0%, 0%), hsl(0, 0%, 0%));
+      margin-top: 0PX;
+      padding: 80PX 40PX 0 40PX ;
+      border-radius: 10px; 
+      height: fit-content;
+      font-size: x-large;
+      margin-right: 20PX;
+      width: fit-content;
+      margin-left: 40px;
+    }
+    .price>p{
+        font-family: "Syne", sans-serif;
+        font-weight: 200;
+        background-image: linear-gradient(to bottom, hsl(0, 0%, 0%), hsl(86, 100%, 11%));
+      margin-top: 0PX;
+      padding: 20PX 40PX 80PX 40PX ;
+      border-radius: 10px; 
+      height: fit-content;
+      font-size: large;
+      margin-right: 20PX;
+      width: fit-content;
+      margin-left: 40px;
+      color: rgb(160, 160, 160);
+    }
+    @font-face {
+        font-family:Leaguegohic ;
+        src: url(LeagueGothic-Condensed.otf); 
+
+    }
+    
